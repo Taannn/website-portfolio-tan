@@ -31,7 +31,7 @@ const Hero = () => {
           <div className="hero-image">
             <img src={profile} alt="Tristan Candelario" />
           </div>
-          <h1>Hello, I&apos;m Tristan. A Web Developer based in Metro Manila, Philippines</h1>
+          <h1>Hello, <span className="gradient">I&apos;m Tristan. A Web Developer</span> based in Metro Manila, Philippines</h1>
           <div className="flex">
             <a
               href={resume}

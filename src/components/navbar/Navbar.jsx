@@ -18,12 +18,6 @@ const links = [
     listClass: "nav-list"
   },
   {
-    link: "#achievements",
-    text: "Achievements",
-    linkClass: "nav-link",
-    listClass: "nav-list"
-  },
-  {
     link: "#services",
     text: "Services",
     linkClass: "nav-link",

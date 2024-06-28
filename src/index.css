@@ -92,6 +92,13 @@ a {
 .show {
   display: block;
 }
+.gradient {
+  color: transparent;
+  background: linear-gradient(279deg, var(--asparagus) 69%, var(--tea-green));
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
 
 /* LAYOUTS */
 .flex {

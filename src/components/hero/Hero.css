@@ -12,12 +12,7 @@
 #hero h1 {
   font-size: 3.2rem;
   line-height: 1;
-  color: transparent;
-  background: linear-gradient(277deg, var(--dark-brown) 28%, var(--tea-green));
-  background-clip: text;
-  letter-spacing: 1px;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: var(--white-smoke);
   text-align: center;
 }
 #hero .flex {
@@ -28,7 +23,7 @@
 .hero-resume {
   background-color: var(--pakistan-green);
   color: var(--white-smoke);
-  padding: 0.4rem 0.8rem;
+  padding: 0.4rem 1rem;
   font-size: 1.4rem;
   transition: all 0.2s ease;
 }
