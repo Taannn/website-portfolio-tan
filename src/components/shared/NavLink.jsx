@@ -1,11 +1,9 @@
-import AnchorLink from "react-anchor-link-smooth-scroll";
+import Anchor from "./Anchor";
 
 const NavLink = ({ text, link, linkClass, listClass }) => {
   return (
     <li className={listClass}>
-      <AnchorLink href={link} className={linkClass}>
-        {text}
-      </AnchorLink>
+      <Anchor text={text} link={link} linkClass={linkClass} />
     </li>
   )
 }

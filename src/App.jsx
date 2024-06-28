@@ -1,3 +1,4 @@
+import Hero from "./components/hero/Hero"
 import Navbar from "./components/navbar/Navbar"
 
 const App = () => {
@@ -8,7 +9,7 @@ const App = () => {
       </header>
 
       <main>
-        {/* <Hero /> */}
+        <Hero />
         {/* <About /> */}
         {/* <Achievements /> */}
         {/* <Services /> */}

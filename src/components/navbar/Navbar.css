@@ -13,6 +13,7 @@ header .flex-between {
 .nav-bg {
   background-color: var(--deep-black);
   position: fixed;
+  z-index: 1000;
   width: 100%;
 }
 .nav-link {
@@ -27,6 +28,7 @@ header .flex-between {
   background-color: var(--pakistan-green);
   color: var(--white-smoke);
   padding: 0.4rem 1rem;
+  transition: all 0.2s ease;
 }
 .nav-btn:hover {
   background-color: var(--rich-black);

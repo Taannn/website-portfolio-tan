@@ -1,0 +1,53 @@
+.hero-image {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 240px;
+  margin: 1rem auto;
+  border: 3px solid var(--olive);
+  opacity: 0.6;
+}
+#hero .one-block {
+  max-width: 740px;
+}
+#hero h1 {
+  font-size: 3.2rem;
+  line-height: 1;
+  color: transparent;
+  background: linear-gradient(277deg, var(--dark-brown) 28%, var(--tea-green));
+  background-clip: text;
+  letter-spacing: 1px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+#hero .flex {
+  margin-top: 1.1rem;
+  gap: 0.6rem;
+  justify-content: center;
+}
+.hero-resume {
+  background-color: var(--pakistan-green);
+  color: var(--white-smoke);
+  padding: 0.4rem 0.8rem;
+  font-size: 1.4rem;
+  transition: all 0.2s ease;
+}
+.hero-resume:hover {
+  background-color: var(--rich-black);
+}
+.hero-socials i {
+  color: var(--pakistan-green);
+  font-size: 3.4rem;
+  transition: all 0.2s ease;
+}
+.hero-socials i:hover {
+  color: var(--tea-green);
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 540px) {
+  #hero h1 {
+    font-size: 2.6rem;
+    margin-bottom: 2rem;
+  }
+}

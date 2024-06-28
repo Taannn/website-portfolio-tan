@@ -1,6 +1,6 @@
-import './Navbar.css'
+import "./Navbar.css"
 import NavLink from "../shared/NavLink"
-import logo from '../../assets/tan-logo.png'
+import logo from "../../assets/tan-logo.png"
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import { useState } from 'react'
 
@@ -49,7 +49,9 @@ const Navbar = () => {
   return (
     <div className='nav-bg'>
       <nav className="container flex-between">
-        <AnchorLink href="#home" className="navbar-logo"><img src={logo} alt="Site Logo (Tan)" width={85} /></AnchorLink>
+        <AnchorLink href="#home" className="navbar-logo">
+          <img src={logo} alt="Site Logo (Tan)" width={85} />
+        </AnchorLink>
         <ul className="flex">
           {links.map((link, index) => (
             <NavLink
