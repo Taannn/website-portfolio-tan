@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+:root {
+  --deep-black: #010101;
+  --rich-black: #04151fff;
+  --dark-slate-gray: #183a37ff;
+  --prussian-blue: #1c3144ff;
+  --feldgrau: #596f62ff;
+  --asparagus: #7ea16bff;
+  --tea-green: #c3d898ff;
+  --burgundy: #70161eff;
+  --black-bean: #250001;
+  --white-smoke: #f1f7ed;
+  --olive: #84732B;
+  --dark-brown: #574F2A;
+  --pakistan-green: #1C3A13;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Quicksand", sans-serif;
+  line-height: 1.5;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+input, textarea {
+  font: inherit;
+}
+p, h1, h2, h3 {
+  overflow-wrap: break-word;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+/* UTILITIES */
+.container {
+  max-width: 1440px;
+  width: 90%;
+  margin-inline: auto;
+}
+.section-spacing {
+  padding: 5rem 0;
+}
+.border-slate {
+  border-left: 2px solid var(--dark-slate-gray);
+  border-top: 2px solid var(--dark-slate-gray);
+  border-bottom: 3px solid var(--rich-black);
+  border-right: 3px solid var(--rich-black);
+}
+.border-mint {
+  border-left: 2px solid var(--tea-green);
+  border-top: 2px solid var(--tea-green);
+  border-bottom: 3px solid var(--asparagus);
+  border-right: 3px solid var(--asparagus);
+}
+.border-crimson {
+  border-left: 2px solid var(--burgundy);
+  border-top: 2px solid var(--burgundy);
+  border-bottom: 3px solid var(--black-bean);
+  border-right: 3px solid var(--black-bean);
+}
+.border-olive {
+  border-left: 2px solid var(--olive);
+  border-top: 2px solid var(--olive);
+  border-bottom: 3px solid var(--dark-brown);
+  border-right: 3px solid var(--dark-brown);
+}
+.round-two {
+  border-radius: 0.4rem;
+}
+.round-one {
+  border-radius: 0.2rem;
+}
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
+
+/* LAYOUTS */
+.flex {
+  display: flex;
+  align-items: center;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.two-block {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+.three-block {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+}
+.four-block {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+}
