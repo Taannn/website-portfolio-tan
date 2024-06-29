@@ -23,7 +23,7 @@ const About = () => {
           </div>
           <div className="about-achievement border-mint round-two">
             <h2 className="gradient"><i className="fa-solid fa-award"></i>Top 4 Award</h2>
-            <p>KodeGo Full Stack Web Development Bootcamp Batch Wd97P Top 4. Achieved for completing 5-months of training under KodeGo.</p>
+            <p>KodeGo Full Stack Web Development Bootcamp Batch WD97P Top 4. Achieved for completing 5-months of training under KodeGo.</p>
           </div>
           <div className="about-achievement border-mint round-two">
             <h2 className="gradient"><i className="fa-solid fa-award"></i>Best Capstone Award</h2>

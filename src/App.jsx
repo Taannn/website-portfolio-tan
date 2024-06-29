@@ -1,6 +1,7 @@
 import About from "./components/about/About"
 import Hero from "./components/hero/Hero"
 import Navbar from "./components/navbar/Navbar"
+import Services from "./components/services/Services"
 
 const App = () => {
   return (
@@ -12,8 +13,7 @@ const App = () => {
       <main>
         <Hero />
         <About />
-        {/* <Achievements /> */}
-        {/* <Services /> */}
+        <Services />
         {/* <Projects /> */}
         {/* <Contact /> */}
       </main>

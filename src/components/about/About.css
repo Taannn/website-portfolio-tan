@@ -35,10 +35,11 @@
 .about-achievement {
   padding: 0.6rem 1rem;
   position: relative;
-  transition: background 0.2s ease-in;
+  transition: transform 0.3s ease-in;
 }
 .about-achievement:hover {
-  background: linear-gradient(278deg, var(--dark-slate-gray) 37%, var(--rich-black));
+  background-color: var(--rich-black);
+  transform: scale(1.02);
 }
 .about-achievement:nth-child(2) {
   left: 2rem;
