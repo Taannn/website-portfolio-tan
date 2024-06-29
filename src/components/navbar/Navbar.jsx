@@ -38,7 +38,7 @@ const Navbar = () => {
               ))}
           </ul>
         </div>
-        <AnchorLink href="#contact" className="nav-btn round-two border-mint">
+        <AnchorLink href="#connect" className="nav-btn round-two border-mint">
           Connect with Me
         </AnchorLink>
         <button onClick={() => setNavToggle(!navToggle)} type="button" className='nav-menu-btn'>
