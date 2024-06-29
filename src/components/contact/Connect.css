@@ -69,10 +69,37 @@
 .connect-info address > *:not(:last-child) {
   margin-bottom: 0.4rem;
 }
+.connect-error-message {
+  color: #f10000;
+  margin-top: 0.2rem;
+}
+.connect-success-message {
+  position: fixed;
+  top: 5rem;
+  right: 20%;
+  background-color: var(--racing-green);
+  padding: 0.6rem 1rem;
+  font-size: 2rem;
+  border: 3px solid var(--asparagus);
+  box-shadow: 0 2px 2px 0 var(--asparagus);
+  border-radius: 0.4rem;
+  width: 60%;
+}
 
 /* MEDIA QUERIES */
 @media (max-width: 560px) {
   #connect .two-block {
     grid-template-columns: 1fr;
+  }
+  .connect-success-message {
+    width: 80%;
+    right: 10%;
+  }
+  .connect-success-message p {
+    font-size: 1.4rem;
+  }
+  .connect-success-message h2 {
+    line-height: 1.1;
+    margin-bottom: 1rem;
   }
 }

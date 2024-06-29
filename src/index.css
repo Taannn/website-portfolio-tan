@@ -11,8 +11,6 @@
   --racing-green: #003e1f;
   --asparagus: #7ea16bff;
   --tea-green: #c3d898ff;
-  --burgundy: #70161eff;
-  --black-bean: #250001;
   --white-smoke: #f1f7ed;
   --olive: #84732B;
   --dark-brown: #574F2A;
@@ -30,6 +28,9 @@ body {
   line-height: 1.5;
   background-color: var(--deep-black);
   color: var(--white-smoke);
+}
+header {
+  position: relative;
 }
 img {
   display: block;
@@ -69,12 +70,6 @@ a {
   border-top: 2px solid var(--tea-green);
   border-bottom: 3px solid var(--asparagus);
   border-right: 3px solid var(--asparagus);
-}
-.border-crimson {
-  border-left: 2px solid var(--burgundy);
-  border-top: 2px solid var(--burgundy);
-  border-bottom: 3px solid var(--black-bean);
-  border-right: 3px solid var(--black-bean);
 }
 .border-olive {
   border-left: 2px solid var(--olive);
