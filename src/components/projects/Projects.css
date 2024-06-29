@@ -51,6 +51,7 @@
   padding: 0.4rem 1rem;
   color: var(--white-smoke);
   background-color: var(--pakistan-green);
+  transition: all 0.2s ease;
 }
 .project-links a:first-child:hover {
   background-color: var(--rich-black);

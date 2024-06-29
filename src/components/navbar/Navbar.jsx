@@ -3,39 +3,7 @@ import NavLink from "../shared/NavLink"
 import logo from "../../assets/tan-logo.png"
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import { useState } from 'react'
-
-const links = [
-  {
-    link: "#hero",
-    text: "Home",
-    linkClass: "nav-link",
-    listClass: "nav-list"
-  },
-  {
-    link: "#about",
-    text: "About",
-    linkClass: "nav-link",
-    listClass: "nav-list"
-  },
-  {
-    link: "#services",
-    text: "Services",
-    linkClass: "nav-link",
-    listClass: "nav-list"
-  },
-  {
-    link: "#projects",
-    text: "Projects",
-    linkClass: "nav-link",
-    listClass: "nav-list"
-  },
-  {
-    link: "#connect",
-    text: "Connect",
-    linkClass: "nav-link",
-    listClass: "nav-list"
-  },
-]
+import links from "../../assets/links"
 
 const Navbar = () => {
   const [navToggle, setNavToggle] = useState(false);

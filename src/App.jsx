@@ -1,4 +1,5 @@
 import About from "./components/about/About"
+import Connect from "./components/contact/Connect"
 import Hero from "./components/hero/Hero"
 import Navbar from "./components/navbar/Navbar"
 import Projects from "./components/projects/Projects"
@@ -16,7 +17,7 @@ const App = () => {
         <About />
         <Services />
         <Projects />
-        {/* <Contact /> */}
+        <Connect />
       </main>
 
       <footer>

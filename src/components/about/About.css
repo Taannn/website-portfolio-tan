@@ -38,7 +38,7 @@
   transition: transform 0.3s ease-in;
 }
 .about-achievement:hover {
-  background-color: var(--rich-black);
+  background-color: var(--night);
   transform: scale(1.02);
 }
 .about-achievement:nth-child(2) {

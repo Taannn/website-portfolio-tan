@@ -14,7 +14,7 @@
   transition: transform 0.3s ease;
 }
 .services-card:hover {
-  background: linear-gradient(270deg, var(--dark-brown) 25%, var(--olive));
+  background: linear-gradient(270deg, var(--racing-green) 15%, var(--night));
   transform: scale(1.03);
 }
 .services-card p {
