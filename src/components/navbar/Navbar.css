@@ -57,4 +57,5 @@ header .flex-between {
   background-color: var(--deep-black);
   top: 4rem;
   right: 1.4rem;
+  border: 1px solid var(--asparagus);
 }

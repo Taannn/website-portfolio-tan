@@ -5,7 +5,7 @@ const Services = () => {
   return (
     <section id="services">
       <h1 className="gradient">Services</h1>
-      <div className="container three-block section-spacing">
+      <div className="container three-block">
         {services_data.map((service, index) => (
           <div className="services-card border-mint round-two" key={index}>
             <span className="gradient">{service.s_no}</span>

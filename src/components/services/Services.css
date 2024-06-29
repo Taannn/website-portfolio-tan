@@ -3,7 +3,7 @@
   letter-spacing: 1px;
   text-align: center;
   text-transform: uppercase;
-  margin-top: 5rem;
+  padding: 5rem 0;
 }
 #services .three-block {
   gap: 1rem;
@@ -33,6 +33,7 @@
     grid-template-columns: 1fr;
   }
   #services h1 {
+    padding-top: 5rem;
     margin-top: 0;
   }
 }
