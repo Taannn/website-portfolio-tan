@@ -1,5 +1,6 @@
 import About from "./components/about/About"
 import Connect from "./components/contact/Connect"
+import Footer from "./components/footer/Footer"
 import Hero from "./components/hero/Hero"
 import Navbar from "./components/navbar/Navbar"
 import Projects from "./components/projects/Projects"
@@ -21,7 +22,7 @@ const App = () => {
       </main>
 
       <footer>
-        {/* <Footer /> */}
+        <Footer />
       </footer>
     </div>
   )

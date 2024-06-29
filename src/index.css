@@ -32,6 +32,9 @@ body {
 header {
   position: relative;
 }
+footer {
+  background-color: var(--night);
+}
 img {
   display: block;
   max-width: 100%;
