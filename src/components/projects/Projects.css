@@ -13,10 +13,12 @@
 #projects .two-block {
   padding: 0.6rem 1rem;
   margin-bottom: 2rem;
+  max-width: 1200px;
 }
 #projects .three-block {
   gap: 1rem;
   padding-bottom: 5rem;
+  max-width: 1200px;
 }
 #projects .three-block > * {
   height: 100%;

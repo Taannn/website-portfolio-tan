@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <div className='nav-bg'>
       <nav className="container flex-between">
-        <AnchorLink href="#home" className="navbar-logo">
+        <AnchorLink href="#hero" className="navbar-logo">
           <img src={logo} alt="Site Logo (Tan)" width={85} />
         </AnchorLink>
         <ul className="flex">
