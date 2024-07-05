@@ -1,6 +1,6 @@
 import './Hero.css';
 import profile from '../../assets/profile.png';
-import resume from '../../assets/Tristan-Candelario.pdf';
+import resume from '../../assets/Tristan-Candelario-Resume.pdf';
 
 const socialLinks = [
   {
@@ -35,7 +35,7 @@ const Hero = () => {
           <div className="flex">
             <a
               href={resume}
-              download="Tristan-Candelario"
+              download="Tristan-Candelario-Resume"
               className='hero-resume border-mint round-two'
             >
               My Resume
