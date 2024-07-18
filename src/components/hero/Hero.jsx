@@ -1,6 +1,6 @@
 import './Hero.css';
 import profile from '../../assets/profile.png';
-import resume from '../../assets/Tristan-Candelario-Resume.pdf';
+import resume from '../../assets/Tristan_Candelario.pdf';
 
 const socialLinks = [
   {
