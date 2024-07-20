@@ -76,9 +76,13 @@
 }
 
 /* MEDIA QUERIES */
-@media (max-width: 540px) {
+@media (max-width: 770px) {
   #projects .two-block,
   #projects .three-block {
     grid-template-columns: 1fr;
+  }
+  .project-image {
+    height: 100%;
+    object-fit: cover;
   }
 }

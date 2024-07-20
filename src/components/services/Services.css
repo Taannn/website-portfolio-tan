@@ -28,7 +28,7 @@
 }
 
 /* MEDIA QUERIES */
-@media (max-width: 560px) {
+@media (max-width: 770px) {
   #services .three-block {
     grid-template-columns: 1fr;
   }
